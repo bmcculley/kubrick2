@@ -1,0 +1,106 @@
+.site-title h1 a {
+	text-decoration: none;
+}
+
+.site-sidebar {
+	background-color: #f9f9f9;
+	padding-left: 5px;
+}
+
+a {
+	color: #06c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+    color: #333;
+}
+
+a, h2 a:hover, h3 a:hover {
+    color: #06c;
+    text-decoration: none;
+}
+
+pre {
+	overflow: auto;
+}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+tr td {
+    padding: 6px 24px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    order: 1px solid var(--table-border);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+}
+
+table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+table td,
+table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 6px 12px; /* cell padding */
+}
+
+table td:first-child,
+table th:first-child {
+    border-left-width: 0;
+}
+
+table thead {
+    background: var(--thead-background);
+    color: var(--main-color);
+    text-align: left;
+    vertical-align: bottom;
+}
+
+table td {
+    background-color: transparent;
+}
+
+.entry-content {
+	max-width: 517px;
+}
+
+figure,
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.wp-block-query-pagination {
+	width: 517px!important;
+}
+
+.wp-block-query-pagination .wp-block-column:last-of-type {
+	margin: 0 20px!important;
+}
